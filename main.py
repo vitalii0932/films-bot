@@ -6,6 +6,8 @@ from config import TOKEN
 from handlers.user import router
 
 async def main():
+    print('Starting bot...')
+
     bot = Bot(token=TOKEN)
     dp = Dispatcher(storage=MemoryStorage())
 
