@@ -34,7 +34,7 @@ async def start(message: types.Message):
         message (types.Message): Message object.
     """
     await message.answer(
-        '👋 Привіт! Я бот для фільмів 🎬',
+        '👋 Привіт! Я бот для фільмів. Вибери необхідну тобі дію 🎬',
         reply_markup=main_keyboard
     )
 
